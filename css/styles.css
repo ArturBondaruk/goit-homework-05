@@ -861,7 +861,8 @@ transform: translateY(0%);
     width: 408px;
     min-height: 584px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-        0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     border-radius: 4px;
     background: #fcfcfc;
     position: absolute;
@@ -912,9 +913,13 @@ transform: translateY(0%);
 .backdrop.is-hidden .modal {
     transform: scale(0);
 }
+.modal-div-container{
+    padding: 72px 24px 24px 24px;
+    margin-bottom: 16px;
+}
 
 .modal-text {
-    color: var(--modal-background);
+    color: var(--NAVY-BLUE);
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -932,7 +937,7 @@ transform: translateY(0%);
 }
 
 .form-label {
-    color: var(--fill-customer-color);
+    color: #8e8f99;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
@@ -956,11 +961,11 @@ transform: translateY(0%);
     transition: border-color var(--duration) var(--timing-function);
 }
 .modal-input:focus {
-    border-color: var(--primery-botton-color);
+    border-color: var(--IRIS);
 }
 
 .modal-input:focus+.modal-icons {
-    fill: var(--primery-botton-color);
+    fill: var(--IRIS);
 }
 
 .modal-icons {
@@ -968,7 +973,7 @@ transform: translateY(0%);
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    fill: var(--modal-background);
+    fill: var(--NAVY-BLUE);
     transition: fill var(--duration) var(--timing-function);
 }
 
@@ -1001,7 +1006,7 @@ transform: translateY(0%);
 }
 
 .modal-textarea:focus {
-    border-color: var(--primery-botton-color);
+    border-color: var(--IRIS);
 }
 
 .form-div-checkbox {
@@ -1042,7 +1047,7 @@ transform: translateY(0%);
 .privacy-checkbox-icon {}
 
 .privacy-link {
-    color: var(--primery-botton-color);
+    color: var(--IRIS);
     text-decoration: underline;
 
 }
@@ -1061,7 +1066,7 @@ transform: translateY(0%);
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    background-color: var(--primery-botton-color);
+    background-color: var(--IRIS);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--primery-white-color);
     border: none;
@@ -1070,5 +1075,5 @@ transform: translateY(0%);
 }
 .modal-btn-send:hover,
 .modal-btn-send:focus {
-    background-color: var(--secondary-botton-color);
+    background-color: var(--OCEAN);
 }
