@@ -1025,6 +1025,7 @@ transform: translateY(0%);
 
 .privacy-label {
     display: block;
+    color: #8e8f99;
 }
 
 .privacy-checkbox-span {
@@ -1042,6 +1043,11 @@ transform: translateY(0%);
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.checkbox-input:checked+.privacy-label .privacy-checkbox-span {
+    background-color: var(--secondary-botton-color);
+    border: none;
+    fill: var(--primery-cloud-color);
 }
 
 .privacy-checkbox-icon {}
@@ -1075,5 +1081,17 @@ transform: translateY(0%);
 }
 .modal-btn-send:hover,
 .modal-btn-send:focus {
-    background-color: var(--OCEAN);
+    background-color: var(--OCEAN); 
+}
+
+.form-div-checkbox {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 24px;
 }
