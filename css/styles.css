@@ -1045,9 +1045,9 @@ transform: translateY(0%);
 
 }
 .checkbox-input:checked+.privacy-label .privacy-checkbox-span {
-    background-color: var(--secondary-botton-color);
+    background-color: var(--OCEAN);
     border: none;
-    fill: var(--primery-cloud-color);
+    fill: var(--CLOUD);
 }
 
 .privacy-checkbox-icon {}
@@ -1074,7 +1074,7 @@ transform: translateY(0%);
     border-radius: 4px;
     background-color: var(--IRIS);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: var(--primery-white-color);
+    color: var(--background-color);
     border: none;
     cursor: pointer;
     transition: background-color var(--duration) var(--timing-function);   
